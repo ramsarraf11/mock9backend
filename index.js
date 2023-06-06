@@ -15,7 +15,7 @@ app.use(cors({
 }))
 
 
-app.get("/", () => {
+app.get("/", (req,res) => {
     res.send("Home Page")
 })
 
